@@ -13,6 +13,6 @@ updates:
   - package-ecosystem: "docker"
     # Look for a `Dockerfile` in the `root` directory
     directory: "/"
-    # Check for updates once a week
+    # Check for updates once a day
     schedule:
-      interval: "weekly"
+      interval: "daily"
